@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { url } from 'inspector';
-const urlwine = 'http://51.20.82.31:4000/api/wines';
-const urlcustomer = 'http://51.20.82.31:4000/api/customers';
+const urlwine = 'http://51.20.82.31:4000/wines';
+const urlcustomer = 'http://51.20.82.31:4000/customers';
 
 export function GetAllWines() {
   return axios.get(urlwine);
